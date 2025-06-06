@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1743.37 846.46">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #841dad;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        font-family: AcuminConcept-Regular, 'Acumin Variable Concept';
+        font-size: 76.6px;
+        font-variation-settings: 'wght' 400, 'wdth' 100, 'slnt' 0;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        fill: #541472;
+      }
+
+      .cls-13 {
+        font-family: AcuminConcept-Medium, 'Acumin Variable Concept';
+        font-size: 134.2px;
+        font-variation-settings: 'wght' 500, 'wdth' 100, 'slnt' 0;
+        font-weight: 500;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="5.67" dy="2.83"/>
+      <feGaussianBlur result="blur" stdDeviation="2.83"/>
+      <feFlood flood-color="#561475" flood-opacity=".42"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g>
+    <polygon class="cls-12" points="305.68 426.81 541.31 748.35 812.08 748.35 812.08 587.58 633.73 587.58 511.37 426.81 508.97 422.98 511.37 419.65 633.73 258.88 812.08 258.88 812.08 98.11 541.31 98.11 305.68 419.65 303.33 422.98 305.68 426.81"/>
+    <polygon class="cls-2" points="406.04 282.7 303.1 422.98 406.04 563.76 508.74 422.98 406.04 282.7"/>
+    <polygon class="cls-3" points="506.39 426.81 270.77 748.35 0 748.35 0 587.58 178.34 587.58 300.71 426.81 303.1 422.98 300.71 419.65 178.34 258.88 0 258.88 0 98.11 270.77 98.11 506.39 419.65 508.74 422.98 506.39 426.81"/>
+  </g>
+  <text class="cls-13" transform="translate(907.85 420.44)"><tspan class="cls-10" x="0" y="0">X</tspan><tspan class="cls-8" x="78.64" y="0">e</tspan><tspan x="149.76" y="0">no</tspan><tspan class="cls-11" x="300.87" y="0">m</tspan><tspan x="414.27" y="0">a </tspan><tspan class="cls-8" x="519.61" y="0">C</tspan><tspan class="cls-1" x="612.48" y="0">o</tspan><tspan x="687.76" y="0">d</tspan><tspan class="cls-18" x="765.19" y="0">e</tspan></text>
+  <text class="cls-6" transform="translate(904.19 526.72)"><tspan class="cls-14" x="0" y="0">S</tspan><tspan class="cls-15" x="46.73" y="0">o</tspan><tspan class="cls-4" x="89.24" y="0">f</tspan><tspan class="cls-9" x="109.31" y="0">t</tspan><tspan class="cls-5" x="134.44" y="0">w</tspan><tspan class="cls-7" x="191.66" y="0">a</tspan><tspan class="cls-17" x="232.18" y="0">r</tspan><tspan class="cls-16" x="258.53" y="0">e</tspan></text>
+</svg>
