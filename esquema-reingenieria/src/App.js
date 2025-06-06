@@ -451,36 +451,7 @@ function App() {
           {palabrasClave[textIndex].descripcion}
         </motion.p>
         
-        {/* Estadísticas */}
-        <div className="info-stats">
-          <div className="stat-box">
-            <div className="stat-icon">☁️</div>
-            <div className="stat-title">AWS SERVICES</div>
-            <div className="stat-value">10+</div>
-            <div className="stat-desc">Lambda, S3, SQS, DynamoDB</div>
-          </div>
-          
-          <div className="stat-box">
-            <div className="stat-icon">⚙️</div>
-            <div className="stat-title">SERVERLESS</div>
-            <div className="stat-value">5+</div>
-            <div className="stat-desc">Implemented Projects</div>
-          </div>
-          
-          <div className="stat-box">
-            <div className="stat-icon">🔄</div>
-            <div className="stat-title">DATABASES</div>
-            <div className="stat-value">4+</div>
-            <div className="stat-desc">PostgreSQL, DynamoDB, Oracle, RDS</div>
-          </div>
-          
-          <div className="stat-box">
-            <div className="stat-icon">🔐</div>
-            <div className="stat-title">CREDENTIALS</div>
-            <div className="stat-value">10+</div>
-            <div className="stat-desc">AWS, Scrum, DevOps</div>
-          </div>
-        </div>
+        
         
         <div className="esquema-conceptos">
           {conceptos.map((concepto) => (
