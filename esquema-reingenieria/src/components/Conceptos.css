@@ -1,0 +1,299 @@
+.conceptos-container {
+    display: flex;
+    font-family: 'Sora', sans-serif;
+    color: #e0e0e0;
+    height: 100%;
+    width: 100%;
+    background-color: #121212;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.conceptos-nav {
+    flex: 0 0 280px;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    overflow-y: auto;
+}
+
+.conceptos-nav h3 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.conceptos-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.conceptos-nav li {
+    padding: 12px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.conceptos-nav li:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.conceptos-nav li.active {
+    background-color: #3f51b5;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.conceptos-content {
+    flex-grow: 1;
+    padding: 30px 40px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.conceptos-content h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #3f51b5;
+    font-weight: 700;
+}
+
+.conceptos-content h4 {
+    font-size: 1.5rem;
+    color: #3f51b5;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.conceptos-content p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.conceptos-content ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.conceptos-content ul li {
+    margin-bottom: 10px;
+    line-height: 1.7;
+    position: relative;
+    padding-left: 25px;
+}
+
+.conceptos-content ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #3f51b5;
+    font-weight: bold;
+}
+
+.conceptos-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.conceptos-content th, .conceptos-content td {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    text-align: left;
+}
+
+.conceptos-content th {
+    background-color: #3f51b5;
+    color: white;
+    font-weight: 600;
+}
+
+.conceptos-content td {
+    background-color: #1e1e1e;
+}
+
+.conceptos-navigation {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    display: flex;
+    gap: 15px;
+}
+
+.conceptos-navigation button {
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Sora', sans-serif;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.conceptos-navigation button:hover {
+    background-color: #303f9f;
+    transform: translateY(-2px);
+}
+
+.conceptos-grafo-container {
+    width: 100%;
+    height: 70vh; /* Ajusta la altura según sea necesario */
+    position: relative;
+    background-color: #0d0d1a;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.react-flow-subtle .react-flow__background {
+    background-color: #0d0d1a;
+}
+
+/* Estilos para los Nodos Personalizados */
+.custom-node {
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #e0e0e0;
+    text-align: center;
+    border: 1px solid #3f51b5;
+    background-color: #1a1a1a;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.custom-node:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(63, 81, 181, 0.7);
+}
+
+/* Nodo Principal (Sol) */
+.main-node {
+    padding: 20px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #3f51b5;
+    color: white;
+    border-radius: 50%;
+    border: 3px solid #7986cb;
+}
+
+/* Nodo Secundario (Planeta) */
+.sub-node {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    max-width: 150px;
+    background-color: #1D232C;
+    border-color: #4A5568;
+}
+
+.panel-detalles {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 100%;
+    background-color: #1a1a1a;
+    box-shadow: -10px 0px 30px rgba(0, 0, 0, 0.5);
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.panel-detalles.hidden {
+    transform: translateX(100%);
+}
+
+.panel-detalles h2 {
+    font-size: 1.8rem;
+    color: #3f51b5;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.panel-contenido {
+    padding: 20px;
+    overflow-y: auto;
+    flex-grow: 1;
+    color: #e0e0e0;
+}
+
+.panel-contenido h4 {
+    font-size: 1.3rem;
+    color: #3f51b5;
+    margin-top: 20px;
+}
+
+.panel-contenido p {
+    line-height: 1.7;
+    font-size: 0.95rem;
+}
+
+.panel-contenido ul {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.panel-contenido ul li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.panel-contenido ul li::before {
+    content: '›';
+    position: absolute;
+    left: 0;
+    color: #3f51b5;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.panel-contenido table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.panel-contenido th, .panel-contenido td {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.panel-contenido th {
+    background-color: #3f51b5;
+    color: white;
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: #e0e0e0;
+    font-size: 2rem;
+    cursor: pointer;
+    line-height: 1;
+} 
