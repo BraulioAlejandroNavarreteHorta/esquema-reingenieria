@@ -8,7 +8,7 @@ import ReactFlow, {
   Handle,
   Position
 } from 'reactflow';
-import 'reactflow/dist/style.css';
+// import 'reactflow/dist/style.css'; // Movido a App.js para resolver problema de build
 import { conceptos } from './conceptosData';
 import './Conceptos.css';
 

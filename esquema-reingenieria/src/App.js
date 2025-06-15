@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import { motion, AnimatePresence } from "framer-motion";
+import 'reactflow/dist/style.css';
 import './App.css';
 import { iconos } from './components/Iconos';
 import Footer from './components/Footer';
